@@ -1,0 +1,19 @@
+import java.util.*;
+public class one 
+	{
+	
+	public static void main(String[] args) 
+	{
+	double temperature;
+	double tempc;
+	Scanner in = new Scanner(System.in);      
+	System.out.println("Enter temperature in Fahrenheit with two decimal places: ");
+	temperature = in.nextInt();
+	tempc = (temperature - 32)*5/9;
+	System.out.println("Temperature in Celsius = " + tempc);
+	}
+
+		
+	}
+	
+

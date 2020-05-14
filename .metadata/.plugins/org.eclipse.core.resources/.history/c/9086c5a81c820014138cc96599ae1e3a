@@ -1,0 +1,28 @@
+import java.util.Scanner;
+public class one 
+	{
+	  public static void main(String[] args) 
+	{
+	    int n;
+	    boolean t = true;
+	 
+	    Scanner input = new Scanner(System.in);
+	    System.out.println("Input an integer");
+	    n = input.nextInt(); 
+	 
+	    while (t == true) 
+	{
+	    System.out.println("You entered " + n);
+	    System.out.println("Input an integer");
+	    n = input.nextInt();
+	    if (n == 0)
+	    	t = false;
+	    //if (t = false)
+	    	//System.out.println("THANK YOU!");
+	    
+	}
+	}
+	}
+
+	
+
